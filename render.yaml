@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fast-tube
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"  # Replace with your actual entrypoint
+    runtime: python-3.11
